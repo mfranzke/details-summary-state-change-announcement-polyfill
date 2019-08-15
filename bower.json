@@ -1,7 +1,7 @@
 {
 	"name": "details-summary-state-change-announcement-polyfill",
 	"description": "Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"homepage": "https://github.com/mfranzke/details-summary-state-change-announcement-polyfill",
 	"authors": [
 		{
