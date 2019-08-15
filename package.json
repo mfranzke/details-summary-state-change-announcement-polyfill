@@ -1,0 +1,45 @@
+{
+  "name": "details-summary-state-change-announcement-polyfill",
+  "version": "0.0.1",
+  "description": "Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA.",
+  "main": "details-summary-state-change-announcement-polyfill.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mfranzke/details-summary-state-change-announcement-polyfill.git"
+  },
+  "author": "Maximilian Franzke",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "details",
+    "summary",
+    "voice",
+    "state",
+    "announcement",
+    "NVDA",
+    "polyfill",
+    "web development",
+    "javascript",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/mfranzke/details-summary-state-change-announcement-polyfill/issues"
+  },
+  "homepage": "https://github.com/mfranzke/details-summary-state-change-announcement-polyfill",
+  "devDependencies": {
+    "prettier": "1.17.0",
+    "xo": "^0.24.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "xo": {
+    "envs": [
+      "browser"
+    ],
+    "prettier": true,
+    "esnext": false
+  }
+}

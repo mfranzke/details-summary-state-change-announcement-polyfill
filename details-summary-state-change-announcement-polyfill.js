@@ -1,9 +1,10 @@
 /*
- * details/summary HTML elements state change announcement polyfill - https://github.com/mfranzke/details-summary-state-change-announcement-polyfill
+ * details/summary HTML elements state change announcement polyfill
+ * https://github.com/mfranzke/details-summary-state-change-announcement-polyfill
  * @license Copyright(c) 2019 by Maximilian Franzke
  */
 /*
- * A minimal and dependency-free vanilla JavaScript polyfill for the (currently)
+ * A lightweight and dependency-free vanilla JavaScript polyfill for the (currently)
  * missing state change announcement for details/summary HTML tags in NVDA.
  */
 
