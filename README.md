@@ -10,8 +10,8 @@ _Work in progress_
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA, compare to:
-* https://github.com/nvaccess/nvda/issues/8631
-* https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/
+- https://github.com/nvaccess/nvda/issues/8631
+- https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/
 
 - Supports the standard `details` and `summary` HTML tags
 - Released under the MIT license
