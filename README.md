@@ -36,7 +36,7 @@ You may optionally load via NPM or Bower:
     $ npm install details-summary-state-change-announcement-polyfill
     $ bower install details-summary-state-change-announcement-polyfill
 
-You could even load the polyfill asynchronously: <https://jsbin.com/yitarajawe/edit?html,css>
+[//]: # (You could even load the polyfill asynchronously: <https://jsbin.com/yitarajawe/edit?html,css>)
 
 Nothing really, just plug it in, it ~~will~~ should work out of the box.
 
