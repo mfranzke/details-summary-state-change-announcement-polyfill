@@ -12,6 +12,6 @@ And the commit messages from [Conventional Commits](https://conventionalcommits.
 
 ### Added
 
-- Initial stack of files
-- Initial functionality
-- Initial very simple demo
+-  Initial stack of files
+-  Initial functionality
+-  Initial very simple demo

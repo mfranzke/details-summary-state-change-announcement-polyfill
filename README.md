@@ -9,24 +9,25 @@ _Work in progress_
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA, compare to:
-- https://github.com/nvaccess/nvda/issues/8631
-- https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/
+Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA.
 
-- Supports the standard `details` and `summary` HTML tags
-- Released under the MIT license
-- Made in Germany
+-  Released under the MIT license
+-  Made in Germany
 
 ## Features
 
-_TBD_
+-  Supports the standard `details` and `summary` HTML tags
+
+## More information on the NVDA issues
+-  https://github.com/nvaccess/nvda/issues/8631
+-  https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/
 
 ## Core concepts
 
 The polyfill was designed with the following concepts kept in mind:
 
-- dependency-free
-- Using JavaScript as progressive enhancement
+-  dependency-free
+-  Using JavaScript as progressive enhancement
 
 ## Installation
 
