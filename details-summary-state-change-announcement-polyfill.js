@@ -27,4 +27,4 @@
 			summary.setAttribute('aria-expanded', !Boolean(summary.parentNode.open));
 		}
 	);
-})();
+}());
