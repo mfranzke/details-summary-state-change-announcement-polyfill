@@ -7,7 +7,7 @@ _Work in progress_
 [![dependencies Status](https://david-dm.org/mfranzke/details-summary-state-change-announcement-polyfill/status.svg "Count of dependencies")](https://david-dm.org/mfranzke/details-summary-state-change-announcement-polyfill "details summary state change announcement polyfill – on david-dm")
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Greenkeeper badge](https://badges.greenkeeper.io/mfranzke/details-summary-state-change-announcement-polyfill.svg)](https://greenkeeper.io/)
 
 Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA, compare to:
 - https://github.com/nvaccess/nvda/issues/8631
