@@ -16,9 +16,12 @@ Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) 
 
 ## Features
 
--  Supports the standard `details` and `summary` HTML tags
+-  Enriches the standard `details` and `summary` HTML tags to be accessible even when using NVDA
 
 ## More information on the NVDA issues
+
+Motivated by the latter article on hassellinclusion.com's blog, I've developed this polyfill to clear out the last remaining blocking aspect of using details/summary HTML elements even also accessibly.
+
 -  https://github.com/nvaccess/nvda/issues/8631
 -  https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/
 
