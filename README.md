@@ -2,6 +2,8 @@
 
 _Work in progress_
 
+As the issue has been solved mainly by mozilla fixing a missing event in Firefox, this polyfill doesn't seem to be necessary any more: https://github.com/nvaccess/nvda/issues/8631
+
 [![MIT license](https://img.shields.io/npm/l/details-summary-state-change-announcement-polyfill.svg "license badge")](https://opensource.org/licenses/mit-license.php)
 [![details-summary-state-change-announcement-polyfill on Npmjs](https://img.shields.io/npm/v/details-summary-state-change-announcement-polyfill.svg "npm version")][npm]
 [![dependencies Status](https://david-dm.org/mfranzke/details-summary-state-change-announcement-polyfill/status.svg "Count of dependencies")](https://david-dm.org/mfranzke/details-summary-state-change-announcement-polyfill "details summary state change announcement polyfill – on david-dm")
