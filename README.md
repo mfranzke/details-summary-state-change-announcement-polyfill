@@ -1,5 +1,8 @@
 # details/summary HTML tags state change announcement polyfill
 
+(Discontinued)
+As the main reason preventing an accessible usage of `details` and `summary` elements as analyzed and described in https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/ has been fixed (compare to https://github.com/nvaccess/nvda/issues/8631), this polyfill is most likely not necessary any more (especially as it didn't came to a fully working product so far anyhow).
+
 _Work in progress_
 
 As the issue has been solved mainly by mozilla fixing a missing event in Firefox, this polyfill doesn't seem to be necessary any more: https://github.com/nvaccess/nvda/issues/8631
