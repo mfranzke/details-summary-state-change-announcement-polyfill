@@ -1,31 +1,41 @@
 # details/summary HTML tags state change announcement polyfill
 
+(Discontinued):
+As the main reason preventing an accessible usage of `details` and `summary` elements as analyzed and described in https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/ has been fixed (compare to https://github.com/nvaccess/nvda/issues/8631), this polyfill is most likely not necessary any more (especially as it didn't came to a fully working product so far anyhow).
+
 _Work in progress_
+
+As the issue has been solved mainly by mozilla fixing a missing event in Firefox, this polyfill doesn't seem to be necessary any more: https://github.com/nvaccess/nvda/issues/8631
 
 [![MIT license](https://img.shields.io/npm/l/details-summary-state-change-announcement-polyfill.svg "license badge")](https://opensource.org/licenses/mit-license.php)
 [![details-summary-state-change-announcement-polyfill on Npmjs](https://img.shields.io/npm/v/details-summary-state-change-announcement-polyfill.svg "npm version")][npm]
+[![dependencies Status](https://david-dm.org/mfranzke/details-summary-state-change-announcement-polyfill/status.svg "Count of dependencies")](https://david-dm.org/mfranzke/details-summary-state-change-announcement-polyfill "details summary state change announcement polyfill – on david-dm")
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Greenkeeper badge](https://badges.greenkeeper.io/mfranzke/details-summary-state-change-announcement-polyfill.svg)](https://greenkeeper.io/)
 
-Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA, compare to:
-* https://github.com/nvaccess/nvda/issues/8631
-* https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/
+Lightweight and dependency-free vanilla JavaScript polyfill for the (currently) missing state change announcement for details/summary HTML tags in NVDA.
 
-- Supports the standard `details` and `summary` HTML tags
-- Released under the MIT license
-- Made in Germany
+-  Released under the MIT license
+-  Made in Germany
 
 ## Features
 
-_TBD_
+-  Enriches the standard `details` and `summary` HTML tags to be accessible even when using NVDA
+
+## More information on the NVDA issues
+
+Motivated by the latter article on hassellinclusion.com's blog, I've developed this polyfill to clear out the last remaining blocking aspect of using details/summary HTML elements even also accessibly.
+
+-  https://github.com/nvaccess/nvda/issues/8631
+-  https://www.hassellinclusion.com/blog/accessible-accordions-part-2-using-details-summary/
 
 ## Core concepts
 
 The polyfill was designed with the following concepts kept in mind:
 
-- dependency-free
-- Using JavaScript as progressive enhancement
+-  dependency-free
+-  Using JavaScript as progressive enhancement
 
 ## Installation
 
@@ -36,7 +46,7 @@ You may optionally load via NPM or Bower:
     $ npm install details-summary-state-change-announcement-polyfill
     $ bower install details-summary-state-change-announcement-polyfill
 
-You could even load the polyfill asynchronously: <https://jsbin.com/yitarajawe/edit?html,css>
+[//]: # (You could even load the polyfill asynchronously: <https://jsbin.com/yitarajawe/edit?html,css>)
 
 ## API
 
