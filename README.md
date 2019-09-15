@@ -38,6 +38,8 @@ You may optionally load via NPM or Bower:
 
 You could even load the polyfill asynchronously: <https://jsbin.com/yitarajawe/edit?html,css>
 
+## API
+
 Nothing really, just plug it in, it ~~will~~ should work out of the box.
 
 The plugin sets the `aria-expanded`-attribute on the `summary` HTML tag according to the open state of the `details` HTML tag indicated by its `open`-attribute on user interaction with the `details` HTML tag.
